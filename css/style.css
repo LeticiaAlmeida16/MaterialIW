@@ -5,3 +5,37 @@ h1{
     color: rgb(115, 107, 63);
     text-align: center;
 }
+
+header{
+    width: 100%;
+    background-color: rgb(232, 75, 159);
+}
+
+.logo{
+    color: lavender;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+nav{
+    color: lavender;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    background-color: rgb(220, 80, 161);
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    background-color: rgb(134, 79, 40);
+    color: lavender;
+    font-size: 1.3em;
+    text-align: center;
+}
