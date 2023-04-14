@@ -1,14 +1,22 @@
 body{
-    background-color: rgb(242, 121, 121);
+    background-color: rgb(191, 191, 191);
 }
-h1{
+h1, h2{
     color: rgb(134, 79, 40);
     text-align: center;
+    padding-top: 1,5%;
+    padding-bottom: 1%;
+}
+
+p{
+    padding-top: 1%;
+    padding-bottom: 0,5%;
 }
 
 header{
     width: 100%;
-    background-color: rgb(191, 96, 160);
+    background-color: rgb(94, 84, 98);
+    padding: 1,5%;
 }
 
 .logo{
@@ -34,7 +42,7 @@ nav{
 }
 
 footer{
-    background-color: rgb(134, 79, 40);
+    background-color: rgb(62, 79, 89);
     color: lavender;
     font-size: 1.3em;
     text-align: center;
