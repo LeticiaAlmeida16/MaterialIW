@@ -1,22 +1,44 @@
 body{
     background-color: rgb(191, 191, 191);
+    
 }
-h1, h2{
+
+h1 {
     color: rgb(78, 35, 36);
     text-align: center;
     padding-top: 1,5%;
-    padding-bottom: 1%;
+    padding-bottom: 1,5%;
+    line-height: 1,5;
+    font-family: 'Pacifico', cursive;
+   
+}
+
+h2{
+    color: rgb(78, 35, 36);
+    text-align: center;
+    padding-top: 1,5%;
+    padding-bottom: 1,5%;
+    line-height: 1,5;
+    font-family: 'Bebas Neue', cursive;
 }
 
 p{
     padding-top: 1%;
     padding-bottom: 0,5%;
+    line-height: 1,5;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.listameio li{
+    line-height: 1,5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
     width: 100%;
     background-color: rgb(94, 84, 98);
-    padding: 1,5%;
+    padding: 2%;
 }
 
 .logo{
@@ -39,6 +61,8 @@ nav{
     background-color: rgb(127, 105, 117);
     width: 80%;
     margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 footer{
