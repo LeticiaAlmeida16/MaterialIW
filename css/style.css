@@ -20,18 +20,24 @@ h2{
     padding-bottom: 1,5%;
     line-height: 1,5;
     font-family: 'Bebas Neue', cursive;
+    margin: 2%;
 }
 
 p{
     padding-top: 1%;
     padding-bottom: 0,5%;
     line-height: 1,5;
+    font-size: 1,2em;
+    text-align: justify;
+    text-indent: 25px;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1,5;
 
 }
 
 .listameio li{
     line-height: 1,5;
+    font-size: 1,2em;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -70,4 +76,14 @@ footer{
     color: lavender;
     font-size: 1.3em;
     text-align: center;
+}
+
+section{
+    background-color: slategrey;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.legenda{
+    font-family: 'Montserrat', sans-serif;
 }
