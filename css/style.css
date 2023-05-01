@@ -1,6 +1,5 @@
 body{
     background-color: rgb(191, 191, 191);
-    
 }
 
 h1 {
@@ -10,7 +9,6 @@ h1 {
     padding-bottom: 1,5%;
     line-height: 1,5;
     font-family: 'Pacifico', cursive;
-   
 }
 
 h2{
@@ -27,12 +25,10 @@ p{
     padding-top: 1%;
     padding-bottom: 0,5%;
     line-height: 1,5;
-    font-size: 1,2em;
     text-align: justify;
     text-indent: 25px;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1,5;
-
+    font-size: 1,2em;
 }
 
 .listameio li{
