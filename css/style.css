@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(136, 106, 123);
 }
@@ -84,4 +88,32 @@ section{
 
 .legenda{
     font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+text-decoration: none;
+color: rgb(62, 79, 89);
+}
+      
+a:visited {
+text-decoration: none;
+color: darkmagenta;
+}
+      
+a:hover {
+text-decoration: none;
+color: indigo;
+}
+      
+a:active {
+text-decoration: none;
+color: darkslateblue;
+}
+
+.imgdireita {
+
+}
+
+.imgtam{
+    
 }
