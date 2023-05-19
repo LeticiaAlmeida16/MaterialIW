@@ -111,9 +111,11 @@ color: darkslateblue;
 }
 
 .imgdireita {
+    float: right;
 
 }
 
 .imgtam{
-    
+    width: 25%;
+    margin-left: 2%;
 }
