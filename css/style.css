@@ -45,7 +45,7 @@ p{
 
 header{
     width: 100%;
-    background-color: rgb(106, 120, 173);
+    background-color: rgb(191, 152, 138);
     padding: 2%;
 }
 
@@ -66,7 +66,7 @@ nav{
 }
 
 .container{
-    background-color: rgb(107, 83, 96);
+    background-color: rgb(191, 152, 138);
     width: 80%;
     margin: auto;
     padding-left: 2%;
@@ -74,7 +74,7 @@ nav{
 }
 
 footer{
-    background-color: rgb(64, 101, 171);
+    background-color: rgb(89,5,45);
     color: lavender;
     font-size: 1.3em;
     text-align: center;
@@ -97,12 +97,12 @@ color: rgb(62, 79, 89);
       
 a:visited {
 text-decoration: none;
-color: darkmagenta;
+color: rgb(177, 61, 105);
 }
       
 a:hover {
 text-decoration: none;
-color: indigo;
+color: rgb(143, 69, 110);
 }
       
 a:active {
