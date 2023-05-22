@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: rgb(187, 157, 174);
+    background-color: rgb(156,88, 111);
 }
 
 h1 {
@@ -45,7 +45,7 @@ p{
 
 header{
     width: 100%;
-    background-color: rgb(148, 156, 179);
+    background-color: rgb(106, 120, 173);
     padding: 2%;
 }
 
@@ -74,14 +74,14 @@ nav{
 }
 
 footer{
-    background-color: rgb(62, 79, 89);
+    background-color: rgb(64, 101, 171);
     color: lavender;
     font-size: 1.3em;
     text-align: center;
 }
 
 section{
-    background-color: rgb(194, 195, 194);
+    background-color: rgb(218, 213, 218);
     padding-left: 2%;
     padding-right: 2%;
 }
