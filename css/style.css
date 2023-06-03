@@ -128,11 +128,15 @@ color: darkslateblue;
 
 .col-6{
     width: 50%;
-    background-color: rgb(191, 152, 138);
+    background-image: linear-gradient(to right, #BA6884 , #ebc0d4);
+    border-style: dashed;
+    border-color: #A60550;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgb(191,152,138); 
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     .linha {
       flex-direction: column;
     }
