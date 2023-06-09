@@ -14,6 +14,7 @@ h1 {
     line-height: 1,5;
     font-family: 'Pacifico', cursive;
     font-size: 1.3em;
+    text-shadow: 2px 2px 5px rgb(156,88, 111);
 }
 
 h2{
@@ -25,6 +26,11 @@ h2{
     font-family: 'Bebas Neue', cursive;
     margin: 2%;
     font-size: 1.3em;
+    text-shadow: 2px 2px 5px rgb(80, 63, 63);
+}
+
+.li{
+    display: inline;
 }
 
 p{
@@ -41,6 +47,11 @@ p{
     line-height: 1,5;
     font-size: 1,2em;
     font-family: 'Montserrat', sans-serif;
+    list-style-type: circle;
+}
+
+.livrosfam{
+    border-radius: 8px;
 }
 
 header{
@@ -84,6 +95,7 @@ section{
     background-color: whitesmoke;
     padding-left: 2%;
     padding-right: 2%;
+    padding-top: 2%;
 }
 
 .legenda{
@@ -91,33 +103,35 @@ section{
 }
 
 a:link {
-text-decoration: none;
-color: rgb(62, 79, 89);
+    text-decoration: none;
+    color: rgb(177, 61, 105);
 }
       
 a:visited {
-text-decoration: none;
-color: rgb(177, 61, 105);
+    text-decoration: none;
+    color: rgb(177, 61, 105);
 }
       
 a:hover {
-text-decoration: none;                             
-color: rgb(143, 69, 110);
+    text-decoration: none;                             
+    color: rgb(143, 69, 110);
 }
       
 a:active {
-text-decoration: none;
-color: darkslateblue;
+    text-decoration: none;
+    color: darkslateblue;
 }
 
 .imgdireita {
     float: right;
-
 }
 
 .imgtam{
     width: 25%;
     margin-left: 2%;
+    background-image: linear-gradient(to right, #e9b3c6 , #ebc0d4 , #e9b3c6);
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgb(191,152,138);
 }
 
 .linha{
@@ -128,15 +142,20 @@ color: darkslateblue;
 
 .col-6{
     width: 50%;
-    background-image: linear-gradient(to right, #BA6884 , #ebc0d4);
-    border-style: dashed;
-    border-color: #A60550;
-    border-width: 5px;
-    box-shadow: 15px 15px 15px 2px rgb(191,152,138); 
+    text-align: center; 
 }
 
+
+.fundovid{
+    background-image: linear-gradient(to right, #e9b3c6 , #ebc0d4 , #e9b3c6);
+    border-style: dotted;
+    border-color: #BA6884;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgb(191,152,138);
+}    
+
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .linha {
       flex-direction: column;
     }
