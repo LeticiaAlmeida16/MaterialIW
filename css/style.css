@@ -82,6 +82,7 @@ nav{
     margin: auto;
     padding-left: 2%;
     padding-right: 2%;
+    padding-bottom: 2%;
 }
 
 footer{
@@ -95,7 +96,7 @@ section{
     background-color: whitesmoke;
     padding-left: 2%;
     padding-right: 2%;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 .legenda{
@@ -149,9 +150,10 @@ a:active {
 .fundovid{
     background-image: linear-gradient(to right, #e9b3c6 , #ebc0d4 , #e9b3c6);
     border-style: dotted;
-    border-color: #BA6884;
+    border-color: #ba6884;
     border-width: 5px;
-    box-shadow: 15px 15px 15px 2px rgb(191,152,138);
+    box-shadow: 15px 15px 15px 2px rgb(240, 141, 174);
+    margin: 2%;
 }    
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
@@ -164,3 +166,22 @@ a:active {
         width: 100%;
     }
   }
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ba6884;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #e9b3c6 
+}
+
+
