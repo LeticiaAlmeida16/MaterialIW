@@ -24,7 +24,7 @@ h2{
     padding-bottom: 1,5%;
     line-height: 1,5;
     font-family: 'Bebas Neue', cursive;
-    margin: 2%;
+    margin: 1.5%;
     font-size: 1.3em;
     text-shadow: 2px 2px 5px rgb(80, 63, 63);
 }
@@ -47,7 +47,6 @@ p{
     line-height: 1,5;
     font-size: 1,2em;
     font-family: 'Montserrat', sans-serif;
-    list-style-type: circle;
 }
 
 .livrosfam{
