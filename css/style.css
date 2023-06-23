@@ -47,6 +47,8 @@ p{
     line-height: 1,5;
     font-size: 1,2em;
     font-family: 'Montserrat', sans-serif;
+    list-style-image: url('../img/livroicon.png');
+    padding-left: 0.5%;
 }
 
 .livrosfam{
