@@ -67,6 +67,10 @@ header{
     font-size: 1.4em;
 }
 
+.logo-topo{
+    width: 30%;
+}
+
 nav{
     color: lavender;
     text-align: center;
