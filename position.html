@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+<style>
+    body{
+        background-color: hotpink;
+    }
+
+    
+    p{
+        background-color: lightpink;
+    }
+
+    .fixed{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        background-color:mediumvioletred;
+    }
+
+    .container{
+        width: 100%;
+        top: 100px;
+        position: relative;
+        margin: 5%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .topdir{
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
+    }
+    .topesq{
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+    }
+
+    .baixodir{
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        font-size: 18px;
+    }
+
+    .baixoesq{
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        font-size: 18px;
+    }
+
+    .meio{
+        position: absolute;
+        
+    }
+
+</style>
+
+</head>
+<body>
+    <header class="fixed" style="text-align: center;">
+        <h1>Menu fixo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Voltar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div>
+            <h3>CSS De Position</h3>
+            <p>TESTE</p>
+        </div>
+        
+        <div class="container">
+            <img src="img/fundoposition.jpg" alt="">
+            <div class="topdir"> TOPO NA DIREITA</div>
+            <div class="topesq"> TOPO NA ESQUERDA</div>
+            <div class="baixodir"> BAIXO NA DIREITA</div>
+            <div class="baixoesq"> BAIXO NA ESQUERDA </div>
+            <div class="meio"> MEIO </div>
+
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
