@@ -14,9 +14,10 @@
     .fixed{
         position: fixed;
         width: 100%;
-        z-index: 1030;
-        top:0;
+        z-index: 1;
+        top: 0;
         background-color: deeppink;
+        padding: 2%;
     }
 
     h1{
@@ -25,12 +26,13 @@
     }
 
     .container{
-        background-color: rgb(191, 152, 138);
         width: 80%;
         margin: auto;
         padding-left: 2%;
         padding-right: 2%;
         padding-bottom: 2%;
+        padding-top: 11%;
+        position: relative;
     }
 
     section{
@@ -44,13 +46,14 @@
         width: 100%;
     }
 
-
-
     .topdir{
         position: absolute;
         top: 8px;
         right: 16px;
         font-size: 18px;
+        width: 20%;
+        background-color: blue;
+
     }
     .topesq{
         position: absolute;
@@ -88,12 +91,12 @@
 </head>
 
 <body>
-    <header class="fixed">
+        <header class="fixed">
             <nav>
                 <ul><a href="index.html"> <h1>Voltar</h1> </a></h2></ul>
                 <ul> <h1>Position HTML and CSS</h1> </ul>
             </nav> 
-    </header>
+        </header>
 
         <div class="container">
 
@@ -103,18 +106,17 @@
             </section>
 
             <section>
-            <img src="img/fundoposition.jpg" alt="">
-            <div class="topdir"> TOPO NA DIREITA</div>
-            <div class="topesq"> TOPO NA ESQUERDA</div>
-            <div class="baixodir"> BAIXO NA DIREITA</div>
-            <div class="baixoesq"> BAIXO NA ESQUERDA </div>
-            <div class="meio"> MEIO </div>
+                <h2>TESTE</h2>
+                <img src="img/fundoposition.jpg" alt="">
+                <div class="container">
+                    <div class="topdir"> TOPO NA DIREITA</div>
+                    <div class="topesq"> TOPO NA ESQUERDA</div>
+                    <div class="baixodir"> BAIXO NA DIREITA</div>
+                    <div class="baixoesq"> BAIXO NA ESQUERDA </div>
+                    <div class="meio"> MEIO </div>
+                </div>
             </section>
 
-        </div>
-
-    </div>
-    
-    
+        </div>    
 </body>
 </html>
