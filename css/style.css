@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: rgb(156,88, 111);
+    background-color: rgb(204, 116, 145);
 }
 
 h1 {
@@ -57,8 +57,9 @@ p{
 
 header{
     width: 100%;
-    background-color: rgb(191, 152, 138);
-    padding: 2%;
+    background-color: rgb(219, 190, 179);
+    padding: 1%;
+    position: fixed;
 }
 
 .logo{
