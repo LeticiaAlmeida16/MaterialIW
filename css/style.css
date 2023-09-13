@@ -240,7 +240,7 @@ a:active {
     }
 
     .banner {
-        margin-top: 37%;
+        margin-top: 42.5%;
     }
 
     .logo {
@@ -295,7 +295,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #e9b3c6
+    background-color: #e9b3c6;7
 }
 
 /* contato */
