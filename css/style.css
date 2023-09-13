@@ -248,6 +248,10 @@ a:active {
         text-align: center;
         width: 50%;
     }
+    .col-25, .col-75, input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
 }
 
 @media screen and (min-width: 801px) {
@@ -276,6 +280,18 @@ a:active {
     .banner {
         margin-top: 6%;
     }
+
+    .col-25{
+        width: 25%;
+        float: left;
+        margin-top: 6px;
+    }
+    
+    .col-75{
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+    }
 }
 
 table {
@@ -295,31 +311,29 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #e9b3c6;7
+    background-color: #e9b3c6;
 }
 
 /* contato */
-
-.col-25 {
-    width: 25%;
-    float: left;
-    margin-top: 8px;
-}
-
-.col-75 {
-    width: 75%;
-    float: left;
-    margin-top: 8px;
-}
-
-.ctt {
+.bordacontato {
     background-color: #dbbeb3;
     padding: 3%;
-    border-radius: 9px;
+    border-radius: 10px;
     margin: 1%;
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
     margin: auto;
+    margin-bottom: 2%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
 }
 
 input[type=text],
@@ -337,10 +351,12 @@ input[type=email] {
 input[type=submit] {
     background-color: #D08E92;
     color: rgb(89, 5, 45);
+    margin-top: 0.8%;
     padding: 10px 20px;
-    border: 2px solid #D08E92;
+    border: none;
     border-radius: 15px;
     cursor: default;
+    float: left;
 }
 
 input[type=submit]:hover {
@@ -349,18 +365,22 @@ input[type=submit]:hover {
     font-weight: bolder;
 }
 
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+input[type=text]:focus{
+    background-color: #dbbeb3;
+  }
+  
+select:focus{
+    background-color: #dbbeb3;
 }
-
-label {
-    padding: 10px 10px 10px 0;
-    display: inline-block;
+  
+textarea:focus{
+    background-color: #dbbeb3;
 }
-
-.botaodoctt {
-    margin-top: 2%;
+  
+input[type=cel]:focus{
+    background-color: #dbbeb3;
+}
+  
+input[type=email]:focus{
+    background-color: #dbbeb3;
 }
